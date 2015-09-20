@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+gunicorn -c gunicorn_conf.py app:app
+tail ./logs/server.logs
